@@ -1,5 +1,6 @@
 body {
     display: block;
+    margin: 0;
 }
 
 header {
@@ -13,14 +14,16 @@ header {
 main {
     padding: 30px;
     background-color: aliceblue;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    display: flex;
 }
 
 footer {
     background-color: #6060ff;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -31,37 +34,44 @@ h1 {
 }
 
 h3 {
-    margin: 0;
+    margin: 8px;
+    font-weight: 300;
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
 }
 
-.row {
-    display: flex;
+#white {
+    color: whitesmoke;
+    font-weight: 500;
+}
+.column {
+    display: block;
     justify-content: center;
+    height: 80vh;
+    width: calc(100% / 9);
 }
 
 .card {
     display: flex;
-    width: 120px;
-    border-radius: 16px;
-    height: calc(80vh / 9);
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(210, 210, 210);
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    margin-bottom: 15px;
+    text-align: center;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-top: 0;
+    height: calc(calc(100% / 6) - 10px);
 }
 
 .periodo-card {
     display: flex;
-    width: 120px;
-    border-radius: 16px;
-    height: calc(80vh / 9);
-    background-color: rgb(96, 96, 96);
+    border-radius: 0px;
+    background-color: rgb(120, 120, 120);
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    margin-bottom: 15px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;  
 }
