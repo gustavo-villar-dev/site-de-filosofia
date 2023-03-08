@@ -1,0 +1,67 @@
+body {
+    display: block;
+}
+
+header {
+    display: flex;
+    background-color: #6060ff;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+    background-color: aliceblue;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    background-color: #6060ff;
+    height: 10vh;
+}
+
+h1 {
+    margin: 0;
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    margin: 0;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 120px;
+    border-radius: 16px;
+    height: calc(80vh / 9);
+    background-color: rgb(122, 122, 122);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.periodo-card {
+    display: flex;
+    width: 120px;
+    border-radius: 16px;
+    height: calc(80vh / 9);
+    background-color: rgb(96, 96, 96);
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 15px;
+}
